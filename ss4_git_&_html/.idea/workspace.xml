@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65d7402f-b7ac-4a28-8e5f-4c429504320b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Pseudo code &amp; Flowchart/~$m_so_lon_nhat_trong_day_so.docx" beforeDir="false" />
-    </list>
+    <list default="true" id="65d7402f-b7ac-4a28-8e5f-4c429504320b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,11 +49,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686229185537</updated>
-      <workItem from="1686229187797" duration="37000" />
+      <workItem from="1686229187797" duration="378000" />
     </task>
+    <task id="LOCAL-00001" summary="ss4 b1">
+      <created>1686229319355</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686229319355</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ss4 b1" />
+    <option name="LAST_COMMIT_MESSAGE" value="ss4 b1" />
   </component>
 </project>
