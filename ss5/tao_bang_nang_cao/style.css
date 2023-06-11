@@ -1,0 +1,13 @@
+table{
+    font-family: Arial;
+    text-align: center;
+    width: 700px;
+    height: 200px;
+    border-collapse: collapse;
+}
+th{
+    background-color: red;
+    color: azure;
+    border-color: aliceblue;
+
+}
