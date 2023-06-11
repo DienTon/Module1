@@ -1,13 +1,16 @@
 table{
-    font-family: Arial;
-    text-align: center;
-    width: 700px;
-    height: 200px;
+    border: black;
     border-collapse: collapse;
+    width: 600px;
+    height: 600px;
 }
-th{
-    background-color: red;
-    color: azure;
-    border-color: aliceblue;
-
+.Black {
+    background-color: black;
+}
+.White {
+    background-color: white;
+}
+.day_so tr{
+    font-size: 100px;
+    font-family: Arial;
 }
