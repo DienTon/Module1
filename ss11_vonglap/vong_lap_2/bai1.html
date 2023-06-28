@@ -7,16 +7,18 @@
 <body>
 <script>
     let a=0,b=1,temp;
-    let dem=0,n=prompt("nhập n số fabonaci cần in");
+    let i=0,dem=0,n=prompt("nhập n số fabonaci cần in");
+
     while(dem <= n){
-        if(a <= 1){
-            document.write(a+" ");
+        if(i <= 1){
+            document.write(i+" ");
         }
         temp = a + b;
         a = b;
         b = temp;
         document.write(b+ " ");
         dem++;
+        i++;
     }
 </script>
 </body>
