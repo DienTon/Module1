@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=0,b=1,temp;
+    let dem=0,n=prompt("nhập n số fabonaci cần in");
+    while(dem <= n){
+        if(a <= 1){
+            document.write(a+" ");
+        }
+        temp = a + b;
+        a = b;
+        b = temp;
+        document.write(b+ " ");
+        dem++;
+    }
+</script>
+</body>
+</html>
