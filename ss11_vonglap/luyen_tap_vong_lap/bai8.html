@@ -10,8 +10,13 @@
 <script>
     function choi() {
         let dem =3;
-        let n=parseInt(prompt("nhap vao khoan muon doan so"));
-        n = Math.floor(Math.random() *11); // math.floor làm tròn đến 1 chữ số
+        let canDuoi=+prompt("Nhap can duoi");
+        let canTren=+prompt("Nhap can tren");
+        // let n=parseInt(prompt("nhap vao khoan muon doan so"));
+        let n = Math.round(Math.random() * (canDuoi-canTren)+canDuoi);
+
+        console.log(n);
+
         while(dem > 0){
             let doan = parseInt(prompt("Nhập số cần đoán: "));
             if(doan < n){

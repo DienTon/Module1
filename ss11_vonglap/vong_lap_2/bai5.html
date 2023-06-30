@@ -2,9 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let thang=+prompt("Nhập số tháng cho vay");
+    let tienBanDau=+prompt("Nhập số tiền ban đầu (VND)");
+    let laiXuat=+prompt("Nhập lãi xuất hàng tháng (%)");
+
+    for (let i = 1; i <= thang; i++) {
+        tienBanDau=tienBanDau+ tienBanDau*(laiXuat/100);
+    }
+
+    document.write("tổng tiền lãi: " + tienBanDau);
+</script>
 </body>
 </html>
