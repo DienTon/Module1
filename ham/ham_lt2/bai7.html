@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function doiCho(a,b) {
+        let temp = a;
+        a = b;
+        b = temp;
+        document.write("<br>"+a + " " + b)
+    }
+
+    let a= +prompt("Nhập a")
+    let b= +prompt("Nhập b")
+    document.write(a + " " + b)
+    doiCho(a,b)
+
+</script>
+</body>
+</html>
